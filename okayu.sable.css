@@ -37,8 +37,8 @@ body.sable-remote-theme [class*="Sidebar_Sidebar__"] {
 
 body.sable-remote-theme {
   /* Fonts */
-  --font-secondary: 'GohuFont', monospace;
-  --font-monospace: 'GohuFont', monospace;
+  --font-secondary: 'GohuFont';
+  --font-monospace: 'GohuFont';
   /* Background */
   --sable-bg-container: var(--bg-bright);
   --sable-bg-container-hover: var(--bg-bright2);
