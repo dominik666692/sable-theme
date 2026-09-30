@@ -118,6 +118,34 @@ body.sable-remote-theme {
   --sable-overlay: rgba(15, 14, 18, 0.85);
 }
 
+/* navbar sizes */
+/* Room list items */
+body.sable-remote-theme [class*="styles_NavItemBase__"] {
+  min-height: 3.3rem !important;
+}
+
+/* ---- Folds classes below: re-check after Sable updates ---- */
+
+/* Avatar size */
+body.sable-remote-theme [class*="styles_NavItemBase__"] ._1684mq52 {
+  --_1684mq50: 2.5rem;
+}
+
+/* Avatar rounding */
+body.sable-remote-theme [class*="styles_NavItemBase__"] .cpipac3 {
+  border-radius: 90px;
+}
+
+/* Text size */
+body.sable-remote-theme [class*="styles_NavItemBase__"] ._1xny9xlb {
+  font-size: 1.2rem;
+}
+
+/* Spacing */
+body.sable-remote-theme [class*="styles_NavItemBase__"] .prxiv41k {
+  gap: 1rem;
+}
+
 /* rounded everything */
 /* Base Rounding */
 body.sable-remote-theme,
@@ -164,7 +192,7 @@ body.sable-remote-theme div [class*=layout_MessageBase_notifyHighlight_loud] {
   border-radius: 9.6px !important;
 }
 body.sable-remote-theme [data-sentry-element="AvatarPresence"] * {
-  border-radius: 12.8px !important;
+  border-radius: 90px !important;
 }
 body.sable-remote-theme div [class*="RoomCover"] {
   border-radius: 0 0 8px 8px !important;
