@@ -16,7 +16,7 @@ fullThemeUrl: https://raw.githubusercontent.com/dominik666692/sable-theme/refs/h
 }
 
 html * {
-    font-family: 'GohuFont', monospace!important;
+    font-family: 'GohuFont'!important;
 }
 
 :root {
