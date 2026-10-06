@@ -16,7 +16,7 @@ fullThemeUrl: https://raw.githubusercontent.com/dominik666692/sable-theme/refs/h
 }
 
 html * {
-    font-family: 'GohuFont'!important;
+    font-family: 'GohuFont', 'Twemoji'!important;
 }
 
 :root {
@@ -37,8 +37,8 @@ body.sable-remote-theme [class*="Sidebar_Sidebar__"] {
 
 body.sable-remote-theme {
   /* Fonts */
-  --font-secondary: 'GohuFont';
-  --font-monospace: 'GohuFont';
+  --font-secondary: 'GohuFont', 'Twemoji';
+  --font-monospace: 'GohuFont', 'Twemoji';
   /* Background */
   --sable-bg-container: var(--bg-bright);
   --sable-bg-container-hover: var(--bg-bright2);
