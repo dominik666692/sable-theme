@@ -17,12 +17,14 @@ fullThemeUrl: https://raw.githubusercontent.com/dominik666692/sable-theme/refs/h
 
 html * {
   font-family: 'GohuFont', 'Twemoji' !important;
-  font-synthesis: none !important;   /* no fake bold/italic, so no holes */
-}
-
-/* Bold look without distorting the glyphs */
-b, strong, h1, h2, h3, h4, h5, h6, th {
-  text-shadow: 1px 0 0 currentColor;
+  letter-spacing: 0 !important;
+  word-spacing: 0 !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-variation-settings: normal !important;
+  font-feature-settings: normal !important;
+  text-rendering: optimizeSpeed !important;
+  -webkit-font-smoothing: antialiased !important;
 }
 
 :root {
