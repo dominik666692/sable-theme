@@ -16,14 +16,13 @@ fullThemeUrl: https://raw.githubusercontent.com/dominik666692/sable-theme/refs/h
 }
 
 html * {
-    font-family: 'GohuFont', 'Twemoji'!important;
+  font-family: 'GohuFont', 'Twemoji' !important;
+  font-synthesis: none !important;   /* no fake bold/italic, so no holes */
 }
 
-body, body *:not(code):not(pre):not(pre *),
-b, strong, i, em, h1, h2, h3, h4, h5, h6,
-button, input, textarea {
-  font-family: "GohuFont", "Twemoji"!important;
-  font-synthesis: weight style !important; /* let WebKit fake bold/italic if a weight is missing */
+/* Bold look without distorting the glyphs */
+b, strong, h1, h2, h3, h4, h5, h6, th {
+  text-shadow: 1px 0 0 currentColor;
 }
 
 :root {
