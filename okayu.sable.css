@@ -19,6 +19,13 @@ html * {
     font-family: 'GohuFont', 'Twemoji'!important;
 }
 
+body, body *:not(code):not(pre):not(pre *),
+b, strong, i, em, h1, h2, h3, h4, h5, h6,
+button, input, textarea {
+  font-family: "GohuFont", "Twemoji"!important;
+  font-synthesis: weight style !important; /* let WebKit fake bold/italic if a weight is missing */
+}
+
 :root {
     --text1: #eee5fc!important;
     --text2: #b4abc8!important;
