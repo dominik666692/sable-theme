@@ -126,6 +126,11 @@ body.sable-remote-theme {
   --sable-overlay: rgba(15, 14, 18, 0.85);
 }
 
+/* divider line border color */
+body.sable-remote-theme :is(div [class*="_1yan8dd1 _1mqalmd1 _1mqalmd0 _1yan8dd3 _1yan8ddc _1yan8ddd"]) {
+  color: var(--bg-bright2)!important;
+}
+
 /* navbar sizes */
 /* Room list items */
 body.sable-remote-theme [class*="styles_NavItemBase__"] {
